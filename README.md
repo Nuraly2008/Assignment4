@@ -1,90 +1,48 @@
 
 # Assignment #4. Forms and Validation
 
-**Student Name:** [Adilgereyev Nuraly]
-
-**Group:** [SE-2539]
+**Name:** Adilgereyev Nuraly
+**Group:** SE-2539
 
 ## Part 1. Basic HTML Forms
 
 ### Task 0. Simple Contact Form
 
-Created a basic HTML contact form with Name, Email, Message and Submit button.
+Created a basic HTML contact form with Name, Email, Message, and Submit button. Each field has a proper label.
 
-All fields have corresponding labels.
-
-![Task 0](screenshots/task0.png)
+![Task 0 - Simple Contact Form](./screenshots/task0.png)
 
 ### Task 1. Form with HTML5 Validation
 
-Added HTML5 validation using:
+Added HTML5 validation using `required`, `type="email"`, and `maxlength`. Tested empty fields and invalid email addresses.
 
-- `required`
-- `type="email"`
-- `maxlength`
-
-Tested the form with empty fields and invalid email addresses.
-
-![Task 1](screenshots/task1.png)
+![Task 1 - HTML5 Validation](./screenshots/task1.png)
 
 ## Part 2. Bootstrap Forms
 
 ### Task 2. Bootstrap Form Styling
 
-Recreated the contact form using Bootstrap 5.3.
+Styled the contact form using Bootstrap form classes and the responsive Grid system. Added placeholders and helper text.
 
-Used Bootstrap Grid, form controls, labels, placeholders and helper text.
-
-![Task 2](screenshots/task2.png)
+![Task 2 - Bootstrap Form Styling](./screenshots/task2.png)
 
 ### Task 3. Bootstrap Validation Styles
 
-Added Bootstrap validation using:
+Used Bootstrap classes `is-valid`, `is-invalid`, `valid-feedback`, and `invalid-feedback` to demonstrate valid and invalid input states.
 
-- `is-valid`
-- `is-invalid`
-- `valid-feedback`
-- `invalid-feedback`
-
-Tested the form with valid and invalid input values.
-
-![Task 3](screenshots/task3.png)
+![Task 3 - Bootstrap Validation](./screenshots/task3.png)
 
 ## Part 3. Advanced Form Project
 
 ### Task 4. Registration Form
 
-Created a responsive registration form with:
-
-- First Name
-- Last Name
-- Email
-- Password
-- Confirm Password
-- Gender
-- Hobbies
-- Country
-- Submit button
-- Reset button
-
-Used Bootstrap Grid for responsive layout.
+Created a responsive registration form with First Name, Last Name, Email, Password, Confirm Password, Gender, Hobbies, Country, Submit, and Reset.
 
 Added HTML5 validation and Bootstrap validation feedback.
 
-The password must contain at least 8 characters.
-
-JavaScript checks whether the passwords match.
-
-![Task 4](screenshots/task4.png)
+![Task 4 - Registration Form](./screenshots/task4.png)
 
 ## Work Process Summary
 
-First, I created basic HTML forms with input fields and labels.
+First, I created simple HTML forms and added HTML5 validation. Then I styled the forms with Bootstrap and added validation feedback. Finally, I created a responsive registration form with all the required fields and used CSS for additional styling.
 
-Then, I added HTML5 validation attributes.
-
-Next, I styled the forms using Bootstrap 5.3 and its Grid system.
-
-After that, I implemented Bootstrap validation feedback using JavaScript.
-
-Finally, I created a responsive registration form with password confirmation and Reset functionality.
